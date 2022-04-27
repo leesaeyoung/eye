@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Four senses</title>
+	<style type="text/css">
+		body{margin:0px;}
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+@font-face {
+    font-family: 'Cafe24Danjunghae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');}
+@keyframes jump{0%{} 100%{transform: rotate3d(0,1,0,360deg); } }
+@keyframes m{from{left: -25%;}to{left: 100%}}
+		section{margin: auto;}
+		nav{display: block;
+    	height: 50px;
+   		 margin-top: 0px;
+   	 	position: fixed;
+    	top: 20%;
+    	left: 0;
+    	right: 0;
+    	z-index: 2; list-style: none;}
+    	ul {
+
+    	display: block;
+    	list-style-type: disc;
+    	margin-block-start: 1em;
+    	margin-block-end: 1em;
+    	margin-inline-start: 0px;
+    	margin-inline-end: 0px;
+    	padding-inline-start: 40px;
+		padding: 0;
+   		 padding-left: 60px;
+    	font-size: 1em;}
+    	nav li {
+    margin-top: 55px;
+    font-size: 1em;}
+		footer{color: white; background-image: url('footerimg.png'); margin: 0px;}
+    	a{text-decoration: none; color: black;}
+    	h1{font-family: 'Cafe24Danjunghae'; text-align: center; font-size: 2.8em; font-weight: 500; margin: 0px; padding-top: 120px; padding-bottom: 50px; background-image: "h2_bg.png"; line-height: 1.5;}
+    	h2{font-family: 'Cafe24Danjunghae'; text-align: left; font-size: 2.5em; font-weight: 500; margin-left:790px; padding-top: 120px; padding-bottom: 30px; background-image: "h2_bg.png"; line-height: 1.5;}
+    	h3{font-family: 'Gothic A1', sans-serif; font-size: 1.8em; font-weight: 500; line-height: 1.8; padding: 40px 0px; margin-top: 0px;}
+    	h4{font-family: 'Gothic A1', sans-serif; font-size: 1.8em; font-weight: 500; margin-bottom: 0px;}
+    	p{font-family: 'Gothic A1', sans-serif; font-size: 1.2em; font-weight: 350; line-height: 1.8;}
+    	.cution{position: absolute; width: 340px;right: 100px; top: 1690px; transform: rotate(25deg);}
+    	.cution2{position: absolute; width: 500px;right: -160px; top: 1450px; transform: rotate(-10deg);}
+    	.tq{position: absolute; left: -80px; width: 900px; margin-top: -20px;}
+    	.tq:hover{width: 950px; transition: all 0.5s;}
+    	.phone{position: absolute; right: 0px; width: 600px; margin-top: 320px;}
+    	.phone:hover{width: 650px; transition: all 0.5s;}
+    	.sensesection{margin: auto}
+    	.content1{display: flex;}
+    	.content2{background-color: rgba(218, 242, 242); padding: 30px;}
+		.row{width: 1000px; margin: auto; padding-top: 70px; padding-bottom: 60px; opacity: 100%;}
+		.row-bg1{ margin: auto; padding-top: 70px; padding-bottom: 60px; opacity: 100%; background-image: url('bg.jpg'); background-attachment: fixed; background-size: cover; padding-bottom: 250px; margin-bottom: 0px;}
+		.bg2{background-color: rgba(207, 232, 222); margin: 0px; padding: 90px 0px 400px 0px; padding-bottom: ;}
+		.bg3{background-color: rgba(240, 240, 240);margin-top: 200px; padding-bottom: 200px;}
+		.headerig{width: 100%; display: block; margin-top:-2px;}
+		.navname{font-family: 'Gothic A1', sans-serif; font-weight: 500; }
+		.homebutton{width: 130px; margin-left: 20px;}
+		.colorbg{background: rgb(194,220,174);
+
+background: linear-gradient(0deg, rgba(194,220,174,0.66) 0%, rgba(171,225,231,0.66) 100%);}
+		.gradientbg{background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(193,231,236,1) 20%); padding-bottom: 130px;}
+		.content1-img{width: 40%; margin-left: -30px; margin-top: 173px; display: flex; display: inline-block;}
+		.logo_bg{ width: 15%; display:inline-block; animation: jump 8s forwards infinite; }
+		.logo_text{d}
+		.whatis_senses{ display:block; margin-top: 340px; margin-left: 80px;}
+		
+		.shopbutten{text-align: center; line-height: 3.2rem; font-size: 27px;
+  			text-decoration: none;
+  			  font-weight: 350;
+  			color: white;
+   			 background: rgba(255,255,255,0.3);
+   			 box-shadow: 0px 5px 20px rgba(0,0,0,0.1);; padding: 11px 4px; height: 50px;
+   			 border-radius: 50px;
+   			 margin-left: 24%;
+				margin-top: -15%;
+   			 width: 220px;
+   			 text-align: center;
+   			 position: relative;
+   			 z-index: 3;
+				}
+			.shopbutten:hover{background: rgba(255,255,255); transition: all 0.7s; }
+		.sensesimg{ display: inline-block; width: 300px; margin: 30px -20px; margin-bottom: -30px;}
+		.small_text{font-size: 1em; text-align: center; width: 300px; display: inline-block; line-height: 1.5; margin: 30px -20px; margin-bottom: -30px; }
+		.content3
+		.content3-title{margin-left: 60; text-align: left; font-family: 'Cafe24Danjunghae'; font-size: 2.5em; font-weight: 500;}
+		.img-str{position: absolute; left: -300px; width: 1000px; margin-top:30px;}
+		.img-gujo{position: absolute; width: 450px; margin-left: 850px; margin-top: 400px;}
+		.content4-font{margin-left: 900px; text-align: left; width : 400px;}
+		.img-camo{position: absolute; left: 0px; width: 870px;}
+		.img-rose{position: absolute; right: 0px; width: 870px;}
+		.smelltext-1{margin-left: 450px; padding-top: 300px;}
+		.smelltext-2{padding-top: 300px;}
+		.smellfont{font-family: 'Gothic A1', sans-serif; font-size: 1.2em; font-weight: 300; line-height: 1.8; padding: 25px 0px;}
+
+		.camo-typo{position: absolute; margin-left: 450px; width: 600px; margin-top: 273px;}
+		.rose-typo{position: absolute; width: 600px; margin-top: 273px;}
+		.smellsection{height: 599px;}
+		.img-snow{position: relative;
+    		animation: m 15s infinite linear; width: 23%;display: inline-block;transition: 0.4s;}
+    	.img-rain{position: absolute;
+   		 animation: m 15s infinite linear 3s; width: 23%;display: inline-block; left: -25%; transition: 0.4s;}
+   		 .img-beach{position: absolute;
+   		 animation: m 15s infinite linear 6s; width: 23%;display: inline-block; left: -25%; transition: 0.4s;}
+   		 .img-train{position: absolute;
+   		 animation: m 15s infinite linear 9s; width: 23%;display: inline-block; left: -25%;transition: 0.4s;}
+   		 .img-camp{position: absolute;
+   		 animation: m 15s infinite linear 12s; width: 23%;display: inline-block; left: -25%; transition: 0.4s;}
+   		 .img-rain:hover{transform: scale(1.1);}
+   		 .img-snow:hover{transform: scale(1.1);}
+   		 .img-beach:hover{transform: scale(1.1);}
+   		 .img-camp:hover{transform: scale(1.1);}
+   		 .img-train:hover{transform: scale(1.1);}
+   		 .img-eye{position: absolute; right: -200px; width:900px; margin-top: -230px;}
+   		 .img-temporate{position: absolute; left: -200px; width:800px; padding-top: 50px; display: inline-block;}
+   		 .img-use1{width: 49.2%; display: inline-block; margin: 5px;}
+   		 .usetext{width: 49.2%;margin: 5px; display: inline-block; text-align: center; padding-top: 20px;}
+   		 .foter{display: flex; display: inline-block; padding-left: 20px; padding-right: 10px; text-align: left;}
+
+
+
+
+	</style>
+
+
+
+
+</head>
+<body>
+	<nav>
+		<ul style="list-style: none;">
+			<li>
+				<span class="navname"><a href="index.html">
+					HOME
+				</a></span>
+			</li>
+			<li>
+				<span class="navname">
+					ABOUT
+				</span>
+			</li>
+			<li>
+				<span class="navname">
+					FUNCTION
+				</span>
+			</li>
+			<li>
+				<span class="navname">
+					HOW TO
+					<br>USE
+				</span>
+			</li>
+			<li>
+				<span class="navname">
+					REVIEW
+				</span>
+			</li>
+	</nav>
+<header class="header">
+	<img src="title-04.png" class="headerig">
+	<div class="shopbutten">
+	<a href="">Shop now</a>
+</div>
+</header>
+<section class="content1">
+		<img src="content1.png" class="content1-img">
+		<img src="cution.png" class="cution2">
+		<img src="cution.png" class="cution">
+		<div class="whatis_senses">
+		<img src="logo-06.png" style="width:50%; animation: jump 8s forwards infinite; ">
+		<br>
+	<p>'네가지 감각'을 뜻하는 '포센스'는
+		<br>당신의 네 감각을 충족시키는 블루투스 수면안대 브랜드입니다.
+		<br>잠 못 이루는 분들을 위해 수면에 가장 적합한 조건을 채워드립니다.</p>
+	</div>
+	</div>
+</section>
+<section class="content2">
+	<h1>당신의 네 가지 감각을 재워줍니다.</h1>
+	<center><img src="4s.png" style="width:90%"></center>
+</section>
+<section class="row-bg1">
+	<img src="tq.png" class="tq">
+	<img src="phone.png" class="phone">
+	<div class ="content3-title">
+	<h2>착용해봐요, <br>고요한 세계를,</h2></div>
+	<p style="transform: rotate(-10deg); margin-left: 300px; margin-top: 170px;">멀티탭, 핸드폰 불빛, 창문을 통해 새어나오는 빛 등등...
+		<br>수면을 방해하는 요소들이에요.
+		<br>우리는 평소에 미세한 생활 불빛에 노출되고 있어요.
+		<br>눈의 세포가 감지하는 미세한 불빛들은 질 높은 
+		<br>수면을 방해해요
+	</p></section>
+<section class="bg2">
+	<img src="structure-03.png" class="img-str">
+	<img src="gujo-03.png" class="img-gujo">
+	<div class ="content4-font">
+	<h3>4중구조로 100% 빛 차단<br>고요함을 착용해보세요.</h3>
+	<p>포센스 수면안대는 빛 차단 100% 고효율의
+		<br>암막원단을 넣었습니다.
+		<br>오가닉원단 - 목화솜 - 암막원단 - 안대원단의
+		<br>4중 구조로 빛 차단의 기능을 높였습니다.</p></div></section>
+<section class="row">
+	<h1>맡아봐요, 향기로운 꿈을</h1>
+	<p style="text-align: center;">당신의 좋은 수면을 위해, 다섯가지의 아로마 향기를 준비했습니다.
+		<br>각기 다른 향과 효과를 느껴보세요. 향기로운 수면을 취할 수 있을 거에요.</p>
+		<div class="smellsection">
+			<img src="camo.png" class="img-camo">
+			<img src="camo-typo.png" class="camo-typo">
+			<div class="smelltext-1">
+			<h4>카모마일 가든</h4>
+			<hr align="left" style="border:solid 0.5px gray; width: 450px;">
+				<div class="smellfont">달콤한 카모마일의 향입니다<br>
+			긴장감 완화에 도움을 줍니다.
+				</div>
+			</div>
+		</div>
+		<div class="smellsection">
+			<img src="rose.png" class="img-rose">
+			<img src="rose-typo.png" class="rose-typo">
+			<div class="smelltext-2">
+				<h4>로즈 가든</h4>
+				<hr align="left" style="border:solid 0.5px gray; width: 450px;">
+					<div class="smellfont">매혹적인 장미의 향입니다.<br>
+					쌓였던 스트레스를 완화시켜줍니다.</div>
+				</div>
+			</div>
+		<div class="smellsection">
+			<img src="jamong.png" class="img-camo">
+			<img src="jamong-typo.png" class="camo-typo">
+			<div class="smelltext-1">
+			<h4>자몽 트리</h4>
+			<hr align="left" style="border:solid 0.5px gray; width: 450px;">
+				<div class="smellfont">상큼한 자몽의 은은한 향입니다.<br>
+			주렁주렁 열린 자몽나무와 함께<br>기분전환을 해보세요.
+				</div>
+			</div>
+		</div>
+		<div class="smellsection">
+			<img src="ravender.png" class="img-rose">
+			<img src="ravender-typo.png" class="rose-typo">
+			<div class="smelltext-2">
+				<h4>라벤더 레이크</h4>
+				<hr align="left" style="border:solid 0.5px gray; width: 450px;">
+					<div class="smellfont">싱그러운 라벤더 향입니다.<br>
+					깊은 숙면을 취하게 도와줍니다.</div>
+				</div>
+			</div>
+		<div class="smellsection">
+			<img src="moon.png" class="img-camo">
+			<img src="moon-typo.png" class="camo-typo">
+			<div class="smelltext-1">
+			<h4>나잇 에어</h4>
+			<hr align="left" style="border:solid 0.5px gray; width: 450px;">
+				<div class="smellfont">차분하게 내려 앉은 밤공기입니다.<br>
+			고요한 밤 공기로 마음의 정화를<br>시켜줍니다.
+				</div>
+			</div>
+		</div></section>
+	<section class="gradientbg">
+		<div class="row">
+			<h1>귀 기울여봐요, 평화로운 소리를</h1>
+			<p style="text-align: center;">포센스 수면안대는 머리를 둘러싸는 형태로 되어있습니다.<br>
+			그래서 사방에 오는 외부소음은 완전히 차단됩니다.<br>
+			제공되는 ASMR 소리에 집중하며 온전히 나만의 공간을 느껴보세요.</p></div>
+			<img src="snow.png" class="img-snow">
+			<img src="rain.png" class="img-rain">
+			<img src="beach.png" class="img-beach">
+			<img src="train.png" class="img-train">
+			<img src="camp.png" class="img-camp"></section>
+
+	<section class="row">
+		<h1>느껴보세요, 편안한 촉감을</h1>
+		<img src="1-05.png" class="img-eye">
+		<h4>눈을 압박하지 않는 편안함</h4>
+		<hr align="left" style="border:solid 0.5px gray; width: 450px; margin-bottom:50px ;">
+		<p>포센스 수면안대는 얼굴의 굴곡을 잡아
+만들어졌습니다. <br>눈 전체를 감싸 눈을
+압박하는 기존 안대와는 달리, <br>눈을 뜨고
+감는 것이 자유롭고 방해 받지 않습니다.</p>
+		<img src="2-05.png" class="img-temporate">
+		<div class="smelltext-1">
+		<h4>나에게 가장 알맞는 온도로</h4>
+		<hr align="left" style="border:solid 0.5px gray; width: 450px; margin-bottom:50px ;">
+		<
+		<p>따뜻한 온찜질이 하고싶을때, 혹은 눈을
+시원하게 <br>하고 싶을때 온도를 스스로 조절
+할 수 있습니다.<br>나에게 가장 맞는 온도를 
+찾아 눈의 피로를 풀어보세요.</p>
+	</div>
+	</section>
+	<section class="bg3">
+		<h1>HOW TO USE</h1>
+		<div class="use">
+		<img src="use1.png" class="img-use1">
+		<img src="use2.png" class="img-use1"></div>
+		<div class="usetext">
+		<p>'포센스 수만안대' 어플을 설치합니다.</p></div>
+		<div class="usetext">
+		<p>안대를 블루투스에 연결 후 어플 내에서 향, 사운드, 온도를 조절합니다.</p></div>
+	</section>
+</section>
+<footer>
+	<div class="foter">
+		<h1 style="font-size: 1.7em;">
+			FOUR<br>SENSES</h1></div>
+			<div class="foter"><p>
+			App store</p></div>
+			<div class="foter"><p>
+			Google play</p></div>
+			<div class="foter"><p>
+			Instagram</p></div>
+			<div class="foter"><p>
+			Facebook</p></div>
+			<p style=" padding-top: 30px;color: lightgray;text-align:center; margin-bottom: 0px;">Copyright 2022. Saeyoung Lee. All Rights Reserved.</p></div>
+</footer>
+</body>
+</html>
